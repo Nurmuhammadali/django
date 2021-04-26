@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .text{
+    width: 200px;
+    height: 300px;
+    }
+</style>
+<body>
+    <form action="{% url 'reverse'%}">
+    <h1>Original text has</h1>
+    <textarea class="text" id="user_text" name="user"></textarea>
+    <br>
+    <input type="submit" value="reserve"></input>
+    </form>
+</body>
+</html>
